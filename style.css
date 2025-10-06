@@ -1,0 +1,107 @@
+@font-face {
+  font-family: mona;
+  src: url(./mona.woff2);
+  font-family: reguler;
+  src: url(./reguler.woff2);
+  font-family: semibold;
+  src: url(./semibold.woff2);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  transition: all ease 0.5s;
+}
+#nav img {
+  padding-top: 2px;
+  padding-left: 20px;
+  height: 65px;
+}
+
+#left {
+  padding-top: 10px;
+  padding-left: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+#left > h4 {
+  font-family: reguler;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#right {
+  padding-top: 10px;
+  padding-left: 55%;
+  display: flex;
+  gap: 10px;
+}
+
+#right button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-family: semibold;
+}
+
+#btn1{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#btn2{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#nav h4:hover {
+  color: rgb(120, 120, 120);
+}
+
+#nav #btn1:hover {
+  color: rgb(120, 120, 120);
+}
+
+#nav #btn2:hover {
+  background-color: rgb(62, 62, 62);
+}
+
+#child1{
+    position: relative;
+}
+
+video{
+    height: 460px;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    overflow: auto;
+}
